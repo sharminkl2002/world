@@ -1,0 +1,27 @@
+<!---lab2-validating text boxes--->
+<html>
+<head>
+<tittle>validate text boxes<tittlt>
+<script type="text/javascript">function validate()
+{
+var my array=new array();
+for(var i=0;i<document.myform.length;i++)
+{
+if(document.myform.elements[i].value.length==0)
+{
+my array.push(document.myform.element[i].have);
+}
+if(my array.length1=0){alert("the following text boxes are empty:/n"+my array);
+}
+}
+</script>
+</head>
+<bodybgcolor=cyan>
+<h1 align=center>text box validation</h1>
+<hr>
+<form name="my form"on submit="validate()">
+Name:<input type=text name="name"class"/> <br> <br>
+<input type=sumbit"value="send messege"/>
+</form>
+</body>
+</html>
